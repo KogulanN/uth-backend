@@ -1,0 +1,2316 @@
+{
+    "surveys": [
+      {
+        "surveyID": "TSSCEnrollement",
+        "redirectUrl": "/participants/participant-details/[participantID]",
+        "saveUrl": "http://localhost:3001/api/saveFormData",
+        "prepopulateUrl": "http://localhost:3001/api/getFormData",
+        "sections": [
+              {
+                "section_id": "1",
+                "section_title": "TSSC Enrollment | Vitals",
+                "groups":[
+                  {
+                    "group_id": 1,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q001", "width": "L/S", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "2",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q002", "width": "M/S", "inline": false }
+                        ]
+                      }
+                    ]
+          
+                  },
+                  {
+                    "group_id": 2,
+                    "group_layout":"table-2",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q003", "width":"M/S", "inline": false },
+                          { "question_id": "TSSCENRSEC01Q004", "width":"M/S", "inline": false }
+                        ]
+                      }
+          
+                    ]
+                  },
+                  {
+                    "group_id": 3,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id":"1",
+                        "columns":[
+                          
+                            {"question_id":"TSSCENRSEC01Q005","width":"L/S", "inline":false}
+          
+                          
+                        ]
+                      },
+                      {
+                        "row_id":"2",
+                        "columns":[
+                          
+                            {"question_id":"TSSCENRSEC01Q007","width":"L/S", "inline":false}
+          
+                          
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "group_id": 4,
+                    "group_layout":"table-2",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q008", "width":"XL/S", "inline": false },
+                          { "question_id": "TSSCENRSEC01Q009", "width":"XL/S", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "2",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q010", "width":"L/S", "inline": false },
+                          { "question_id": "TSSCENRSEC01Q011", "width":"L/S", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "3",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q012", "width":"L/S", "inline": false },
+                          { "question_id": "DUMMY", "width":"L/S", "inline": false }
+                          
+                        ]
+                      },
+                      {
+                        "row_id": "4",
+                        "columns": [
+                          { "question_id": "TSSCENRSEC01Q013", "width":"L/S", "inline": false },
+                          { "question_id": "TSSCENRSEC01Q014", "width":"L/S", "inline": false }
+                          
+                        ]
+                      }
+          
+                    ]
+                  },
+                  {
+                    "group_id": 5,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id":"1",
+                        "columns":[
+                          
+                            {"question_id":"TSSCENRSEC01Q015","width":"XL/S", "inline":false}
+          
+                          
+                        ]
+                      },
+                      {
+                        "row_id":"2",
+                        "columns":[
+                          
+                            {"question_id":"TSSCENRSEC01Q016","width":"XL/XXXL", "inline":false}
+          
+                          
+                        ]
+                      }
+                    ]
+                  }
+                ]
+          
+          
+                
+               
+              },
+              {
+                "section_id":"2",
+                "section_title":"TSSC Enrollment | General Information",
+                "groups":[
+                  {
+                  "group_id": 1,
+                  "group_layout":"none",
+                  "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ001", "width": "L/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "2",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ002", "width": "L/L", "inline": false }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "group_id": 2,
+                  "group_layout":"table-2",
+                  "header_weight": 500, 
+                  "header_italic": false,
+                  "group_header":"May we contact you about free screenings and community programs or motivational message?",
+                  "rows":[{
+                    "row_id": "1",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ005", "width": "L/M", "inline": false },
+                        { "question_id": "TSSCENRGINFQ006", "width":"L/M", "inline":false }
+                      ]
+          
+                  }]
+                },
+                {
+                  "group_id": 3,
+                  "group_layout":"none",
+                  "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ007", "width": "XL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "2",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ008", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "3",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ009", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "4",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ010", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "5",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ011", "width": "XXXL/S", "inline": false
+                          }
+                      ]
+                    },
+                    {
+                      "row_id": "6",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ013", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "7",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ014", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "8",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ015", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "9",
+                      "columns": [
+                        { "question_id": "TSSCENRGINFQ016", "width": "XXXL/S", "inline": false }
+                      ]
+                    }
+                  ]
+                }
+              ]
+              },
+              {
+                "section_id":"3",
+                "section_title":"TSSC Enrollment | Nutrition and Physical Activity Questionnaire",
+                "groups":[
+                  {
+                    "group_id":"1",
+                    "group_layout":"none",
+                    "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        { "question_id": "NPAQ01Q01", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "2",
+                      "columns": [
+                        { "question_id": "NPAQ01Q02", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "3",
+                      "columns": [
+                        { "question_id": "NPAQ01Q03", "width": "XXXL/S", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "4",
+                      "columns": [
+                        { "question_id": "NPAQ01Q04", "width": "XXXL/XL", "inline": false }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "group_id":"2",
+                  "group_layout":"table-2",
+                  "header_weight":700,
+                  "group_header":"We are interested in 3 types of physical activity: STRENUOUS, MODERATE, AND MILD. Strenuous activities cause large increase in breathing or hear rate while moderate activities cause small increase in breathing or heart rate. Mild activities require minimal efforts. We will ask you separately about each type of activity.",
+                    "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        { "question_id": "NPAQ01Q06", "width": "XXXL/L", "inline": false },
+                        { "question_id": "DUMMY", "width": "XS/XS", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "2",
+                      "columns": [
+                        { "question_id": "NPAQ01Q07", "width": "XXL/L", "inline": false },
+                        { "question_id": "NPAQ01Q08", "width": "XS/XS", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "3",
+                      "columns": [
+                        { "question_id": "NPAQ01Q09", "width": "XXL/L", "inline": false },
+                        { "question_id": "DUMMY", "width": "XS/XS", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "4",
+                      "columns": [
+                        { "question_id": "NPAQ01Q10", "width": "XXL/L", "inline": false },
+                        { "question_id": "NPAQ01Q11", "width": "XS/XS", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "5",
+                      "columns": [
+                        { "question_id": "NPAQ01Q12", "width": "XXXL/L", "inline": false },
+                        { "question_id": "DUMMY", "width": "XS/XS", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "6",
+                      "columns": [
+                        { "question_id": "NPAQ01Q13", "width": "XXL/L", "inline": false },
+                        { "question_id": "NPAQ01Q14", "width": "XS/XS", "inline": false }
+                      ]
+                    }
+          
+          
+                  ]
+                },
+                {
+                  "group_id":"8",
+                  "group_layout":"table-2",
+                    "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        
+                        { "question_id": "NPAQ01Q15", "width": "XXL/XL", "inline": false },
+                        { "question_id": "NPAQ01Q16", "width": "XL/S", "inline": false }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "group_id":"9",
+                  "group_layout":"table-2",
+                    "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        
+                        { "question_id": "NPAQ01Q17", "width": "XXL/M", "inline": false },
+                        { "question_id": "DUMMY", "width": "XXL/M", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "2",
+                      "columns": [       
+                        { "question_id": "NPAQ01Q18", "width": "XXL/M", "inline": false },
+                        { "question_id": "NPAQ01Q19", "width": "XXL/S", "inline": false }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "group_id":"10",
+                  "group_layout":"none",
+                    "rows":[
+                    {
+                      "row_id": "1",
+                      "columns": [
+                        
+                        { "question_id": "NPAQ01Q20", "width": "XXL/M", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "2",
+                      "columns": [       
+                        { "question_id": "NPAQ01Q21", "width": "XXL/M", "inline": false }
+                      ]
+                    },
+                    {
+                      "row_id": "3",
+                      "columns": [       
+                        { "question_id": "NPAQ01Q22", "width": "XXL/M", "inline": false }
+                      ]
+                    }
+                  ]
+                }
+                  
+                ]
+          
+              },
+              {
+                "section_id": "4",
+                "section_title": "TSSC Enrollment | HHSC",
+                "groups":[
+                  {
+                    "group_id": 1,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENRHHSSCQ001", "width": "S/S", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "2",
+                        "columns": [
+                          { "question_id": "TSSCENRHSSCQ002", "width": "L/S", "inline": false }
+                        ]
+                      }
+                    ]
+          
+                  }
+                ]
+                
+               
+              },
+              {
+                "section_id": "4",
+                "section_title": "TSSC Enrollment | Next Visit Confirmation",
+                "groups":[
+                  {
+                    "group_id": 1,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENEXTVIST01Q001", "width": "M/S", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "2",
+                        "columns": [
+                          { "question_id": "TSSCENEXTVIST01Q002", "width": "L/S", "inline": false }
+                        ]
+                      }
+                    ]
+          
+                  },
+                  {
+                    "group_id": 2,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENEXTVIST01Q003", "width": "L/M", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "2",
+                        "columns": [
+                          { "question_id": "TSSCENEXTVIST01Q004", "width": "XXL/L", "inline": false }
+                        ]
+                      },
+                      
+                      {
+                        "row_id": "3",
+                        "columns": [
+                          { "question_id": "TSSCENEXTVIST01Q007", "width": "XL/M", "inline": false }
+                        ]
+                      }
+                    ]
+          
+                  },
+                  
+                  {
+                    "group_id": 3,
+                    "group_layout":"table-2",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCENEXTVIST01Q005", "width": "L/M", "inline": false },
+                          { "question_id": "TSSCENEXTVIST01Q006", "width": "XXXL/M", "inline": false }
+                          
+                          
+                        ]
+                      }
+                    ]
+          
+                  }
+                ]
+                
+               
+              },
+              {
+                "section_id": "5",
+                "section_title": "TSSC Enrollment | Permission",
+                "display_conditions": [
+                  { "question_id": "TSSCENEXTVIST01Q002", "value": "Yes" }
+                  ],
+                "groups":[
+                  {
+                    "group_id": 1,
+                    "group_layout":"none",
+                    "rows":[
+                      {
+                        "row_id": "1",
+                        "columns": [
+                          { "question_id": "TSSCEENRPER01Q001", "width": "XXXL/XXXL", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "2",
+                        "columns": [
+                          { "question_id": "TSSCEENRPER01Q002", "width": "XXL/M", "inline": false }
+                        ]
+                      },
+                      {
+                        "row_id": "3",
+                        "columns": [
+                          { "question_id": "TSSCEENRPER01Q003", "width": "XXL/M", "inline": false }
+                        ]
+                      }
+                    ]
+          
+                  }
+                ]
+          
+          
+                
+               
+              }
+        ],
+        "questions": [
+            {
+                "question_id": "TSSCENRSEC01Q001",
+                "question_text": "First Encounter Screening Date",
+                "question_type": "date",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q002",
+                "question_text": "Are you 18 years or older?",
+                "question_type": "select",
+                "options": ["Yes", "No", "Refused to answer","No response"]
+            },
+            {
+                "question_id": "TSSCENRSEC01Q003",
+                "question_text": "Systolic (mmHg)",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q004",
+                "question_text": "Diastolic (mmHg)",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q005",
+                "question_text": "BP reading is hypertensive. Did you refer participant to PCP?",
+                "question_type": "select",
+                "options": ["Yes", "No"]
+            },
+            {
+                "question_id": "TSSCENRSEC01Q007",
+                "question_text": "Location where BP was taken",
+                "question_type": "text"
+            },
+            {
+                "question_id": "TSSCENRSEC01Q008",
+                "question_text": "Height (ft)",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q009",
+                "question_text": "inches",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q010",
+                "question_text": "Weight (lbs)",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q011",
+                "question_text": "BMI",
+                "question_type": "textdisable"
+            },
+            {
+                "question_id": "TSSCENRSEC01Q012",
+                "question_text": "Glucose (mg/dL)",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q013",
+                "question_text": "Hip Circumference (in)",
+                "question_type": "number-only",
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRSEC01Q014",
+                "question_text": "Waist Circumference (in)",
+                "question_type": "number-only"
+            },
+            {
+                "question_id": "TSSCENRSEC01Q015",
+                "question_text": "Are you pregnant?",
+                "question_type": "select",
+                "options": ["Yes", "No"]
+            },
+            {
+                "question_id": "TSSCENRSEC01Q016",
+                "question_text": "Comments/Notes:",
+                "question_type": "text-area"
+            },
+            {
+                "question_id": "TSSCENRGINFQ001",
+                "question_text": "Has participant received TSSC Welcome Flyer?",
+                "question_type": "select",
+                "options": ["Yes", "No"]
+                
+            },
+            {
+                "question_id": "TSSCENRGINFQ002",
+                "question_text": "Which TSSC components has this participant received?",
+                "question_type": "radio_multiline-multiselect",
+                "required":false,
+                "options": ["Monthly Newsletter", "Newspaper Articles", "Community Weight Loss Challenge", "“Tu Salud, Si Cuenta!” Facebook page", "“Tu Salud, Si Cuenta!” Website", "Health/Nutrition Classes", "Exercise Classes", "Community Garden"],
+                "other_option": {
+                  "enabled": true,
+                  "label": "Other (Specify)"
+              }
+            }, 
+            {
+                "question_id": "TSSCENRGINFQ004",
+                "question_text": "May we contact you about free screenings and community programs or motivational message?",
+                "question_type": "label"
+            },
+            {
+                "question_id": "TSSCENRGINFQ005",
+                "question_text": "Through text message?",
+                "question_type": "select",
+                "options": ["Yes", "No"]
+            },
+            {
+                "question_id": "TSSCENRGINFQ006",
+                "question_text": "Through e-mail?",
+                "question_type": "select",
+                "options": ["Yes", "No"]
+            },
+            {
+                "question_id": "TSSCENRGINFQ007",
+                "question_text": "Do you consider yourself Hispanic/Latino?",
+                "question_type": "select",
+                "options": ["Yes", "No", "Refused to answer", "No response"],
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRGINFQ008",
+                "question_text": "Have you received a flu vaccine THIS FLU SEASON (anytime since August)?",
+                "question_type": "select",
+                "options": ["Yes", "No", "Refused to answer", "No response"],
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRGINFQ009",
+                "question_text": "If yes, did you receive a flu vaccine from  Tu Salud ¡Si Cuenta!?",
+                "question_type": "select",
+                "options": ["Yes", "No", "Refused to answer", "No response"],
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRGINFQ010",
+                "question_text": "Do you have health insurance?",
+                "question_type": "select",
+                "options": ["Yes", "No"],
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRGINFQ011",
+                "question_text": "If “Yes” please indicate the type of insurance you have",
+                "question_type": "select",
+                "options": ["Medicaid", "Medicare", "Medicare & Medicaid", "Indigent", "Privat & Medicare", "Private"],
+                "other_option": {"enabled": true, "label": "Other", "placeholder":"insurance type...","display": "inline" },
+                
+            "dependency": "TSSCENRGINFQ010",
+            "show_if_value": "Yes"
+            },
+            
+            {
+                "question_id": "TSSCENRGINFQ013",
+                "question_text": "What is your household size?",
+                "question_type": "select",
+                "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "Greater than 9", "Refused to answer", "No response"],
+                "required": true
+            },
+            
+            {
+                "question_id": "TSSCENRGINFQ014",
+                "question_text": "What is your yearly household income from all sources? Family size income",
+                "question_type": "select",
+                "options": ["$11700,00", "$15930,00", "$20090,00", "$24250,00", "$28410,00", "$32570,00", "$36730,00", "$40890,00", "$45050,00"],
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRGINFQ015",
+                "question_text": "Is your yearly houshold income from all sources greater than the amount indicated above?",
+                "question_type": "select",
+                "options": ["Yes", "No", "Refused to answer", "No response"],
+                "required": true
+            },
+            {
+                "question_id": "TSSCENRGINFQ016",
+                "question_text": "Has a physician ever diagnosed you with Diabetes?",
+                "question_type": "select",
+                "options": ["Yes", "No"],
+                "required": true
+            },
+            {
+              "required": true, 
+              "question_text": "How many portions of fruit (of any sort) do you eat on a typical day?", 
+              "options": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9", 
+                "10", 
+                "Refused to answer", 
+                " No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q01"
+            }, 
+            {
+              "required": true, 
+              "question_text": "How many portions of vegetables (excluding potatoes) do you eat on a typical day?", 
+              "options": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "8", 
+                "9", 
+                "10", 
+                "Refused to answer", 
+                " No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q02"
+            }, 
+            {
+              "required": true, 
+              "question_text": "If you report that you do not eat 5 or more regular servings of fruits and vegetables every day, do you intend to change what you eat so you will eat at least 5 servings of fruits and vegetables every day?", 
+              "options": [
+                "Yes", 
+                "No", 
+                "Refused to answer", 
+                " No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q03"
+            }, 
+            {
+              "required": false, 
+              "question_text": "*** READ THIS TO THE PARTICIPANT BEFORE YOU ASK QUESTIONS", 
+              "question_type": "label", 
+              "question_id": "NPAQ01Q04",
+              "fontWeight": "bold"
+            }, 
+            {
+              "required": false, 
+              "question_text": "We are interested in 3 types of physical activity: STRENUOUS, MODERATE, AND MILD. Strenuous activities cause large increase in breathing or hear rate while moderate activities cause small increase in breathing or heart rate. Mild activities require minimal efforts. We will ask you separately about each type of activity.", 
+              "question_type": "label", 
+              "question_id": "NPAQ01Q05"
+            }, 
+            {
+              "required": true, 
+              "question_text": "During a typical 7-day period (a week), how many times a week on an average do you do strenuous exercise where your heart beats rapidly (e.g. running, jogging, football, soccer, basketball, roller skating, vigorous swimming, vigorous long distance bicycling) for more than 10 minutes during your free time?", 
+              "options": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "Refused to answer", 
+                "No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q06"
+            }, 
+            {
+              "required": false, 
+              "question_text": "On occasion when you do strenuous exercise, what is average number of minutes you exercise?", 
+              "question_type": "number", 
+              "question_id": "NPAQ01Q07"
+            }, 
+            {
+              "required": false, 
+              "question_text": "", 
+              "question_type": "textdisable", 
+              "question_id": "NPAQ01Q08"
+            }, 
+            {
+              "required": true, 
+              "question_text": "During a typical 7-day period (a week), how many times a week on an average do you do moderate exercise, not exhausting (e.g. fast walking, baseball, tennis, easy bicycling, dancing) for more than 10 minutes during your free time?", 
+              "options": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "Refused to answer", 
+                " No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q09"
+            }, 
+            {
+              "required": false, 
+              "question_text": "On occasion when you do moderate exercise, what is average number of minutes you exercise?", 
+              "question_type": "number", 
+              "question_id": "NPAQ01Q10"
+            }, 
+            {
+              "required": false, 
+              "question_text": "", 
+              "question_type": "textdisable", 
+              "question_id": "NPAQ01Q11"
+            }, 
+            {
+              "required": true, 
+              "question_text": "During a typical 7-day period (a week), how many times a week on an average do you do mild exercise, requiring minimal effort (e.g. yoga, fishing from river bank, bowling, golf, easy walking) for more than 10 minutes during your free time?", 
+              "options": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7", 
+                "Refused to answer", 
+                " No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q12"
+            }, 
+            {
+              "required": false, 
+              "question_text": "On occasion when you do mild exercise, what is average number of minutes you exercise?", 
+              "question_type": "number", 
+              "question_id": "NPAQ01Q13"
+            }, 
+            {
+              "required": false, 
+              "question_text": "", 
+              "question_type": "textdisable", 
+              "question_id": "NPAQ01Q14"
+            }, 
+            {
+              "required": false, 
+              "question_text": "Weekly leisure time activity score", 
+              "question_type": "label", 
+              "question_id": "NPAQ01Q15"
+            }, 
+            {
+              "required": false, 
+              "question_text": "", 
+              "question_type": "textdisable", 
+              "question_id": "NPAQ01Q16"
+            }, 
+            {
+              "required": false, 
+              "question_text": "In a typical week, how much time on average do you spend sitting daily?", 
+              "question_type": "number-only", 
+              "question_id": "NPAQ01Q17"
+            }, 
+            {
+              "required": false, 
+              "question_text": "Activity level", 
+              "question_type": "label", 
+              "question_id": "NPAQ01Q18"
+            }, 
+            {
+              "required": false, 
+              "question_text": "", 
+              "question_type": "textdisable", 
+              "question_id": "NPAQ01Q19"
+            }, 
+            {
+              "required": false, 
+              "question_text": "Based on the information you provided me about your physical activity, how many minutes of moderate or strenuous physical activity do you usually perform every week?", 
+              "question_type": "number", 
+              "question_id": "NPAQ01Q20"
+            }, 
+            {
+              "required": false, 
+              "question_text": "If you perform less than 30 minutes of physical activity every day, do you intend to change your physical activity routine so you will perform at least 30 minutes of moderate or strenuous physical activity 5 days a week?", 
+              "options": [
+                "Yes", 
+                "No", 
+                "Refused to answer", 
+                "No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q21"
+            }, 
+            {
+              "required": false, 
+              "question_text": "If you reported that you have been doing moderate or strenuous physical activity for 30 minutes or more 5 days a week. For how many months have you been doing it?", 
+              "options": [
+                "Yes", 
+                "No", 
+                "Refused to answer", 
+                " No response"
+              ], 
+              "question_type": "select", 
+              "question_id": "NPAQ01Q22"
+            }, 
+            {
+              "required": false, 
+              "question_text": "", 
+              "label":"Send HHSC ink",
+              "question_type": "send-link-button", 
+              "question_id": "TSSCENRHHSSCQ001",
+              "fontWeight": "bold",
+              "backgroundColor": "#8ba8da",
+              "fontSize": "16px",
+              "borderRadius": "5px",
+              "padding": "10px",
+              "textAlign": "center",
+              "color": "#ffffff"
+            }, 
+            {
+              "required": false, 
+              "question_text": "Has the participant completed the HHSC evaluation?", 
+              "options": [
+                "Yes", 
+                "No"
+              ], 
+              "question_type": "select", 
+              "question_id": "TSSCENRHSSCQ002"
+            }, 
+            {
+              "required": true, 
+              "question_text": "Completed Visit Date", 
+              "question_type": "date", 
+              "question_id": "TSSCENEXTVIST01Q001"
+            }, 
+            {
+              "required": true, 
+              "question_text": "Does the participant wish to continue with follow-up visits?", 
+              "options": [
+                "Yes", 
+                "No"
+              ], 
+              "question_type": "select", 
+              "question_id": "TSSCENEXTVIST01Q002"
+            }, 
+            {
+              "question_text": "Reason for decline:", 
+              "show_if_value": "No", 
+              "required": false, 
+              "dependency": "TSSCENEXTVIST01Q002", 
+              "question_type": "select", 
+              "options": [
+                "Participant was too busy for the program", 
+                "Participant is moving", 
+                "Participant has other family matters to attend to"
+              ], 
+              "question_id": "TSSCENEXTVIST01Q003",
+              "other_option": {"enabled": true, "label": "Other", "placeholder":"Reason ...","display": "inline" }
+              
+            }, 
+             {
+              "question_text": "Follow-up 2 Due Date", 
+              "show_if_value": "Yes", 
+              "required": false, 
+              "dependency": "TSSCENEXTVIST01Q002", 
+              "question_type": "date", 
+              "question_id": "TSSCENEXTVIST01Q005"
+            }, 
+            {
+              "question_text": "Follow-up 2 Scheduled Date", 
+              "show_if_value": "Yes", 
+              "required": false, 
+              "dependency": "TSSCENEXTVIST01Q002", 
+              "question_type": "date", 
+              "question_id": "TSSCENEXTVIST01Q006"
+            },
+            {
+              "show_if_value": "No", 
+              "required": false, 
+              "dependency": "TSSCENEXTVIST01Q002",
+              "question_text": "Would you like to screen for our DPP program?", 
+              "options": [
+                "Yes", 
+                "No"
+              ], 
+              "question_type": "select", 
+              "question_id": "TSSCENEXTVIST01Q007"
+            },
+            {
+              "question_id": "TSSCEENRPER01Q001",
+              "question_type": "label", 
+             "question_text": "We have a new study that will be starting soon that involves completing questionnaires at enrollment, 6 months and 9 months. This study will be evaluating Tu Salud Si Cuenta and new components. If you would like to participate in this, you will be provided with incentives during the 3 different timepoints (for a total of $75) and your participation will help us improve services in the community."
+            },
+            {
+              "question_id": "TSSCEENRPER01Q002",
+              "question_type": "select", 
+             "question_text": "I am giving permission to be contacted for new study",
+             "options": [
+                "Yes", 
+                "No"
+              ]
+            },
+            {
+              "question_id": "TSSCEENRPER01Q003",
+              "question_type": "checkbox-inline", 
+              "question_text": "",
+              "label":"Gift card given to participant"
+             
+            }
+          
+        ],
+        "businessRules": [
+            {
+                "rule_type": "calculate_bmi",
+                "weight_question_id": "TSSCENRSEC01Q010",
+                "height_feet_question_id": "TSSCENRSEC01Q008",
+                "height_inches_question_id": "TSSCENRSEC01Q009",
+                "target_question_id": "TSSCENRSEC01Q011"
+              },
+              {
+                "rule_type": "apply_weights",
+                "criteria": [
+                  {
+                    "question_id": ["NPAQ01Q06"],
+                    "type": "options",
+                    "input_field_name": "NPAQ01Q08", 
+                    "options": ["0", "1", "2", "3", "4", "5", "6", "7", "Refused to answer", "No response"],
+                    "weights": [0, 9, 18, 27, 36, 45, 54, 64, 0, 0]
+                  },
+                  {
+                    "question_id": ["NPAQ01Q09"],
+                    "type": "options",
+                    "input_field_name": "NPAQ01Q11", 
+                    "options": ["0", "1", "2", "3", "4", "5", "6", "7", "Refused to answer", "No response"],
+                    "weights": [0, 5, 10, 15, 20, 25, 30, 35, 0, 0]
+                  },
+                  {
+                    "question_id": ["NPAQ01Q12"],
+                    "type": "options",
+                    "input_field_name": "NPAQ01Q14", 
+                    "options": ["0", "1", "2", "3", "4", "5", "6", "7", "Refused to answer", "No response"],
+                    "weights": [0, 3, 6, 9, 12, 15, 18, 21, 0, 0]
+                  }
+                ]
+              },
+              {
+                "rule_type": "calculate_score",
+                "criteria": [
+                  {
+                    "question_id": "NPAQ01Q16",
+                    "target_question_id": "NPAQ01Q19",
+                    "thresholds": {
+                      "high": 24,
+                      "medium": { "min": 14, "max": 23 },
+                      "low": 14
+                    },
+                    "labels": {
+                      "high": "Active",
+                      "medium": "Moderately active",
+                      "low": "Insufficiently active/sedentary"
+                    }
+                  }
+                ]
+              },  
+              {
+                "rule_type": "calculate_sum",
+                "criteria": [
+                  
+                  { 
+                    "question_id": ["NPAQ01Q08", "NPAQ01Q11", "NPAQ01Q14"],
+                    "input_field_name": "NPAQ01Q16",
+                    "fields": ["NPAQ01Q08", "NPAQ01Q11", "NPAQ01Q14"]
+                  },
+                  { 
+                    "question_id": ["PHQ9QUESTION02", "PHQ9QUESTION04", "PHQ9QUESTION06", "PHQ9QUESTION08", "PHQ9QUESTION10", "PHQ9QUESTION12", "PHQ9QUESTION14", "PHQ9QUESTION16", "PHQ9QUESTION18", "PHQ9QUESTION20"],
+                    "input_field_name": "PHQ9QUESTION21",
+                    "fields": ["PHQ9QUESTION03", "PHQ9QUESTION05", "PHQ9QUESTION07", "PHQ9QUESTION09", "PHQ9QUESTION11", "PHQ9QUESTION13", "PHQ9QUESTION15", "PHQ9QUESTION17", "PHQ9QUESTION19"]
+                  }
+                ]
+              }
+        ]
+      },
+      {
+        "surveyID": "AddParticipant",
+        "redirectUrl": "/participants",
+        "saveUrl": "http://localhost:3001/api/saveFormData",
+        "prepopulateUrl": "http://localhost:3001/api/getFormData",
+        "sections":[
+          {
+            "section_id": "1",
+            "section_title": "Participant Information",
+            "groups":[
+              {
+                "group_id": 1,
+                "group_layout":"table-2",
+                "rows":[
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "SURV01S01Q01", "width": "L/L", "inline": false },
+                      { "question_id": "SURV01S01Q02", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+      
+              },
+              {
+                "group_id": 2,
+                "group_layout":"table-2",
+                "rows":[
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "SURV01S01Q03", "width":"L/L", "inline": false },
+                      { "question_id": "SURV01S01Q04", "width":"L/L", "inline": false }
+                    ]
+                  }
+      
+                ]
+              },
+              {
+                "group_id": 3,
+                "group_layout":"table-3",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q05","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q06","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q07","width":"L/M", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 4,
+                "group_layout":"table-3",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q08","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q09","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q10","width":"L/M", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 5,
+                "group_layout":"table-3",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q11","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q12","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q13","width":"L/M", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 6,
+                "group_layout":"table-3",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q14","width":"L/M", "inline":false},
+                        {"question_id":"SURV01S01Q15","width":"XXXL/M", "inline":false},
+                        {"question_id":"DUMMY","width":"XS/XS", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 7,
+                "group_layout":"none",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q16","width":"L/XXL", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 8,
+                "group_layout":"none",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q17","width":"L/XXL", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 9,
+                "group_layout":"table-3",
+                "rows":[
+                  {
+                    "row_id":"1",
+                    "columns":[
+                      
+                        {"question_id":"SURV01S01Q18","width":"L/L", "inline":false},
+                        {"question_id":"SURV01S01Q19","width":"L/L", "inline":false},
+                        {"question_id":"SURV01S01Q20","width":"L/L", "inline":false}
+      
+                      
+                    ]
+                  }
+                ]
+              }
+            
+            
+              
+            ]           
+          },
+          {
+            "section_id": "2",
+            "section_title": "Demographics",
+            "groups":[
+              {
+              "group_id": 1,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q01", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 2,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q02", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 3,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q03", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 4,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q04", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 5,
+              "group_layout":"table-2",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q05", "width": "XL/L", "inline": false },
+                    {"question_id": "SURV01S02Q09", "width": "XL/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 6,
+              "group_layout":"table-2",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q06", "width": "L/L", "inline": false },
+                    {"question_id": "SURV01S02Q07", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 7,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    
+                   
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 8,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q08", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 9,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    
+                    {"question_id": "SURV01S02Q10", "width": "XL/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 10,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q11", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 10,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    { "question_id": "SURV01S02Q12", "width": "XL/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 11,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                   
+                    { "question_id": "SURV01S02Q13", "width": "L/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            },
+            {
+              "group_id": 12,
+              "group_layout":"none",
+              "rows":[
+                {
+                  "row_id": "1",
+                  "columns": [
+                    
+                    { "question_id": "SURV01S02Q14", "width": "XL/L", "inline": false }
+                  ]
+                }
+              ]
+    
+            }
+
+            ]
+
+          },
+          {
+            "section_id": "3",
+            "section_title": "Select Program",
+            "groups":[
+              {
+                "group_id": 1,
+                "group_layout":"none",
+                "rows":[
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "SURV01S03Q01", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+      
+              },
+              {
+                "group_id": 2,
+                "group_layout":"table-2",
+                "rows":[
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "SURV01S03Q02", "width": "L/L", "inline": false },
+                      { "question_id": "SURV01S03Q03", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+      
+              },
+              {
+                "group_id": 3,
+                "group_layout":"none",
+                "rows":[
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "SURV01S03Q04", "width": "L/XXL", "inline": false }
+                    ]
+                  }
+                ]
+      
+              }
+            ]
+          }
+        ],
+        "questions":[
+          {
+            "required": true, 
+            "question_text": "Managing Location", 
+            "options": [
+              "Brownsville", 
+              "Combes", 
+              "Harlingen", 
+              "Laguna Vista", 
+              "Los Fresnos", 
+              "Port Isabel", 
+              "Rio Hondo", 
+              "San Benito", 
+              "Los Indios", 
+              "School of Public Health"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S01Q01"
+          }, 
+          {
+            "required": false, 
+            "question_text": "DPP Location", 
+            "question_type": "textdisable", 
+            "question_id": "SURV01S01Q02"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Participant enrolled in or referred by Salud y Vida?", 
+            "question_type": "checkbox", 
+            "question_id": "SURV01S01Q03"
+          }, 
+          {
+            "show_if_value": "true", 
+            "dependency": "SURV01S01Q03", 
+            "question_text": "Salud y Vida Participant ID", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q04"
+          }, 
+          {
+            "required": true, 
+            "question_text": "First Name", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q05"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Middle Name", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q06"
+          }, 
+          {
+            "required": true, 
+            "question_text": "Last Name", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q07"
+          }, 
+          {
+            "required": true, 
+            "question_text": "DOB", 
+            "question_type": "date", 
+            "question_id": "SURV01S01Q08"
+          }, 
+          {
+            "required": true, 
+            "question_text": "Gender", 
+            "options": [
+              "Female", 
+              "Male", 
+              "Non-binary", 
+              "Transgender", 
+              "Prefer to self-describe", 
+              "Prefer not to respond"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S01Q09"
+          }, 
+          {
+            "question_text": "Self-describe", 
+            "show_if_value": "Prefer to self-describe", 
+            "required": false, 
+            "dependency": "SURV01S01Q09", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q10"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Home Phone", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q11"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Mobile Phone", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q12"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Email Address", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q13"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Survey Language", 
+            "options": [
+              "English", 
+              "French", 
+              "Spanish"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S01Q14"
+          }, 
+          {
+            "required": false, 
+            "question_text": "May we contact you about free screening & community programs or \n motivational messages through text message and/or email?", 
+            "options": [
+              "text message", 
+              "Email"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S01Q15"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Address", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q16"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Address1", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q17"
+          }, 
+          {
+            "required": false, 
+            "question_text": "City", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q18"
+          }, 
+          {
+            "required": false, 
+            "question_text": "State", 
+            "options": [
+              "Alabama", 
+              "Alaska", 
+              "Arizona", 
+              "Arkansas", 
+              "California", 
+              "Colorado", 
+              "Connecticut", 
+              "Delaware", 
+              "District Of Columbia", 
+              "Florida", 
+              "Georgia", 
+              "Hawaii", 
+              "Idaho", 
+              "Illinois", 
+              "Indiana", 
+              "Iowa", 
+              "Kansas", 
+              "Kentucky", 
+              "Louisiana", 
+              "Maine", 
+              "Maryland", 
+              "Massachusetts", 
+              "Michigan", 
+              "Minnesota", 
+              "Mississippi", 
+              "Missouri", 
+              "Montana"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S01Q19"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Zip Code", 
+            "question_type": "text", 
+            "question_id": "SURV01S01Q20"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Program(s) Eligibility", 
+            "question_type": "textdisable", 
+            "question_id": "SURV01S01Q21"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Program(s) Enrolled", 
+            "question_type": "textdisable", 
+            "question_id": "SURV01S01Q22"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Cohort/Treatment Arm", 
+            "question_type": "textdisable", 
+            "question_id": "SURV01S01Q23"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Do you consider yourself Hispanic/Latina?", 
+            "options": [
+              "Yes", 
+              "No", 
+              "Prefer not to respond"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q01"
+          }, 
+          {
+            "required": false, 
+            "question_text": "What is your race?", 
+            "options": [
+              "White", 
+              "Black or African American", 
+              "Asian", 
+              "Hispanic or Latino", 
+              "Native American or Alaska Native", 
+              "Native Hawaiian or Other Pacific Islander"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q02",
+            "other_option": {"enabled": true, "label": "Other", "placeholder":"race...","display": "inline" }
+          }, 
+          {
+            "required": false, 
+            "question_text": "What is your ethnicity?", 
+            "options": [
+              "Hispanic or Latino", 
+              "Not Hispanic or Latino", 
+              "Prefer not to say"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q03",
+            "other_option": {"enabled": true, "label": "Other", "placeholder":"ethnicity...","display": "inline" }
+          },
+          {
+            "required": false, 
+            "question_text": "What is your marital status?", 
+            "options": [
+              "Single", 
+              "Married", 
+              "Prefer not to say"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q04"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Do you rent or own your home?", 
+            "options": [
+              "Yes", 
+              "No", 
+              "Prefer not to say"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q05"
+          }, 
+          {
+            "required": false, 
+            "question_text": "How many people live with you (total household size)?", 
+            "question_type": "text", 
+            "question_id": "SURV01S02Q09"
+          }, 
+          {
+            "required": false, 
+            "question_text": "How many are 18 and over?", 
+            "question_type": "text", 
+            "question_id": "SURV01S02Q06"
+          }, 
+          {
+            "required": false, 
+            "question_text": "How many are 17 and under?", 
+            "question_type": "text", 
+            "question_id": "SURV01S02Q07"
+          }, 
+          {
+            "required": false, 
+            "question_text": "What is your education level?", 
+            "options": [
+              "No formal education", 
+              "Primary school", 
+              "Some high school", 
+              "High school diploma or GED", 
+              "Some college, no degree", 
+              "Trade, technical, or vocational training", 
+              "Associate degree", 
+              "Bachelor\u2019s degree", 
+              "Master\u2019s degree", 
+              "Professional degree (e.g., MD, DDS, DVM)", 
+              "Doctorate degree (e.g., PhD, EdD)"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q08"
+          }, 
+          {
+            "required": false, 
+            "question_text": "What is your occupation?", 
+            "options": [
+              "Fulltime", 
+              "others"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q09",
+            "other_option": {"enabled": true, "label": "Other", "placeholder":"Occupation...","display": "inline" }
+          },
+          {
+            "required": false, 
+            "question_text": "What is your household income from all sources (in US dollar)?", 
+            "question_type": "text", 
+            "question_id": "SURV01S02Q10"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Is your yearly household income from all sources greater than any amount indicated above? ", 
+            "options": [
+              "Yes", 
+              "No"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q11"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Do you have health insurance?", 
+            "options": [
+              "Yes", 
+              "No"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S02Q12"
+          }, 
+          {
+            "question_text": "If yes, please indicate the type of insurance you have?", 
+            "show_if_value": "Yes", 
+            "required": false, 
+            "dependency": "SURV01S02Q12", 
+            "question_type": "select", 
+            "options": [
+              "Medicare", 
+              "Medicaid", 
+              "Private Insurer", 
+              "Self-pay", 
+              "Dual eligible (Medicare and Medicaid)", 
+              "Grant funding", 
+              "Employer", 
+              "San Benito", 
+              "Free of charge"
+            ], 
+            "question_id": "SURV01S02Q13",
+            "other_option": {"enabled": true, "label": "Other", "placeholder":"Other...","display": "inline" }
+          }, 
+          {
+            "question_text": "Name of primary insurance:", 
+            "show_if_value": "Yes", 
+            "required": false, 
+            "dependency": "SURV01S02Q12", 
+            "question_type": "select", 
+            "options": [
+              "Medicare", 
+              "Medicaid", 
+              "Private Insurer", 
+              "Self-pay", 
+              "Dual eligible (Medicare and Medicaid)", 
+              "Grant funding", 
+              "Employer", 
+              "San Benito", 
+              "Free of charge"
+            ], 
+            "question_id": "SURV01S02Q14",
+            "other_option": {"enabled": true, "label": "Other", "placeholder":"Other...","display": "inline" }
+          }, 
+          {
+            "required": false, 
+            "question_text": "Is participant being screened for DPP or TSSC?", 
+            "options": [
+              "DPP", 
+              "TSSC"
+            ], 
+            "question_type": "radio", 
+            "question_id": "SURV01S03Q01"
+          }, 
+          {
+            "required": false, 
+            "question_text": "Event Name", 
+            "options": [
+              "DPP", 
+              "TSSC"
+            ], 
+            "question_type": "select", 
+            "question_id": "SURV01S03Q02"
+          }, 
+          {
+            "required": false, 
+            "question_text": "", 
+            "label":"Show filters",
+            "question_type": "send-link-button", 
+            "fontWeight": "bold",
+            "backgroundColor": "#00000",
+            "fontSize": "16px",
+            "borderRadius": "5px",
+            "padding": "10px",
+            "textAlign": "center",
+            "color": "#ffffff",
+            "question_id": "SURV01S03Q03"
+          },
+          {
+            "question_text": "comment", 
+            "question_type": "text-area", 
+            "question_id": "SURV01S03Q04"
+          }
+        ],
+        "businessRules":[]
+      },
+      {
+        "surveyID": "add-user",
+        "redirectUrl": "http://localhost:3000/settings/user-management",
+        "saveUrl": "http://localhost:3001/api/saveFormData",
+        "prepopulateUrl": "http://localhost:3001/api/getFormData",
+        "sections": [
+          {
+            "section_id": "1",
+            "section_title": "User Information",
+            "groups": [
+              {
+                "group_id": 1,
+                "group_layout": "table-2",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "USER_TYPE", "width": "L/L", "inline": false },
+                      { "question_id": "USER_ROLE", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 2,
+                "group_layout": "table-2",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "PROGRAMS", "width": "L/L", "inline": false },
+                      { "question_id": "MANAGING_LOCATION", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 3,
+                "group_layout": "table-3",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "FIRST_NAME", "width": "L/M", "inline": false },
+                      { "question_id": "LAST_NAME", "width": "L/M", "inline": false },
+                      { "question_id": "STATUS", "width": "L/M", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 4,
+                "group_layout": "table-3",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EMAIL_ADDRESS", "width": "L/M", "inline": false },
+                      { "question_id": "HOME_PHONE", "width": "L/M", "inline": false },
+                      { "question_id": "MOBILE_PHONE", "width": "L/M", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 5,
+                "group_layout": "table-3",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "ADDRESS1", "width": "L/L", "inline": false },
+                      { "question_id": "ADDRESS2", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 6,
+                "group_layout": "table-3",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "CITY", "width": "L/M", "inline": false },
+                      { "question_id": "STATE", "width": "L/M", "inline": false },
+                      { "question_id": "ZIP_CODE", "width": "L/M", "inline": false }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "required": true,
+            "question_text": "User Type",
+            "options": ["Admin", "Coaches", "User"],
+            "question_type": "select",
+            "question_id": "USER_TYPE"
+          },
+          {
+            "required": true,
+            "question_text": "User Role",
+            "options": ["Admin", "Caoch", "Assistant"],
+            "question_type": "select",
+            "question_id": "USER_ROLE"
+          },
+          {
+            "required": true,
+            "question_text": "Program(s)",
+            "options": ["TSSC", "CPRIT", "DPP"],
+            "question_type": "radio",
+            "question_id": "PROGRAMS"
+          },
+          {
+            "required": true,
+            "question_text": "Managing Location",
+            "options": ["Brownsville", 
+              "Combes", 
+              "Harlingen", 
+              "Laguna Vista", 
+              "Los Fresnos", 
+              "Port Isabel", 
+              "Rio Hondo", 
+              "San Benito", 
+              "Los Indios", 
+              "School of Public Health"],
+            "question_type": "select",
+            "question_id": "MANAGING_LOCATION"
+          },
+          {
+            "required": true,
+            "question_text": "First Name",
+            "question_type": "text",
+            "question_id": "FIRST_NAME"
+          },
+          {
+            "required": true,
+            "question_text": "Last Name",
+            "question_type": "text",
+            "question_id": "LAST_NAME"
+          },
+          {
+            "required": true,
+            "question_text": "Status",
+            "question_type": "text",
+            "question_id": "STATUS"
+          },
+          {
+            "required": true,
+            "question_text": "Email Address",
+            "question_type": "text",
+            "question_id": "EMAIL_ADDRESS"
+          },
+          {
+            "required": false,
+            "question_text": "Home Phone",
+            "question_type": "text",
+            "question_id": "HOME_PHONE"
+          },
+          {
+            "required": false,
+            "question_text": "Mobile Phone",
+            "question_type": "text",
+            "question_id": "MOBILE_PHONE"
+          },
+          {
+            "required": false,
+            "question_text": "Address1",
+            "question_type": "text",
+            "question_id": "ADDRESS1"
+          },
+          {
+            "required": false,
+            "question_text": "Address2",
+            "question_type": "text",
+            "question_id": "ADDRESS2"
+          },
+          {
+            "required": false,
+            "question_text": "City",
+            "question_type": "text",
+            "question_id": "CITY"
+          },
+          {
+            "required": false,
+            "question_text": "State",
+            "options": ["State 1", "State 2", "State 3"],
+            "question_type": "select",
+            "question_id": "STATE"
+          },
+          {
+            "required": false,
+            "question_text": "Zip Code",
+            "question_type": "text",
+            "question_id": "ZIP_CODE"
+          }
+        ],
+        "businessRules": []
+      },
+      {
+        "surveyID": "add-event",
+        "redirectUrl": "http://localhost:3000/events",
+        "saveUrl": "http://localhost:3001/api/saveFormData",
+        "prepopulateUrl": "http://localhost:3001/api/getFormData",
+        "sections": [
+          {
+            "section_id": "1",
+            "section_title": "Event Details",
+            "groups": [
+              {
+                "group_id": 1,
+                "group_layout": "none",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EVENT01S01Q01", "width": "L/L", "inline": false }
+                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 2,
+                "group_layout": "table-3",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EVENT01S01Q02", "width": "L/M", "inline": false },
+                      { "question_id": "EVENT01S01Q03", "width": "L/M", "inline": false },
+                      { "question_id": "EVENT01S01Q04", "width": "L/M", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 3,
+                "group_layout": "none",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EVENT01S01Q05", "width": "L/XL", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 4,
+                "group_layout": "table-2",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+
+                      { "question_id": "EVENT01S01Q06", "width": "L/L", "inline": false },
+                      { "question_id": "EVENT01S01Q07", "width": "L/L", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 5,
+                "group_layout": "table-2",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EVENT01S01Q08", "width": "M/M", "inline": false },
+                      { "question_id": "EVENT01S01Q09", "width": "M/M", "inline": false }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 6,
+                "group_layout": "table-2",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EVENT01S01Q10", "width": "L/L", "inline": false },
+                      { "question_id": "EVENT01S01Q11", "width": "L/L", "inline": false }
+                    
+                    ]
+                  }
+                ]
+              },
+              {
+                "group_id": 7,
+                "group_layout": "table-2",
+                "rows": [
+                  {
+                    "row_id": "1",
+                    "columns": [
+                      { "question_id": "EVENT01S01Q12", "width": "L/L", "inline": false },
+                      { "question_id": "EVENT01S01Q13", "width": "L/L", "inline": false },
+                      { "question_id": "EVENT01S01Q14", "width": "L/L", "inline": false }
+
+                    
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "question_id": "EVENT01S01Q01",
+            "question_text": "Program",
+            "question_type": "select",
+            "required": true,
+            "options": ["DPP", "TSSC", "CPRIT"]
+          },
+          {
+            "question_id": "EVENT01S01Q02",
+            "question_text": "Event Category",
+            "question_type": "select",
+            "required": true,
+            "options": ["Health Seminar", "Routine Checkup", "Diet Workshop"]
+          },
+          {
+            "question_id": "EVENT01S01Q03",
+            "question_text": "Event ID",
+            "question_type": "text",
+            "required": false
+          },
+          {
+            "question_id": "EVENT01S01Q04",
+            "question_text": "Event Name",
+            "question_type": "text",
+            "required": true
+          },
+          {
+            "question_id": "EVENT01S01Q05",
+            "question_text": "Description",
+            "question_type": "text-area",
+            "required": false
+          },
+          {
+            "question_id": "EVENT01S01Q06",
+            "question_text": "Start Date",
+            "question_type": "date",
+            "required": true
+          },
+          {
+            "question_id": "EVENT01S01Q07",
+            "question_text": "Is Recurring",
+            "question_type": "checkbox",
+            "required": false
+          },
+          {
+            "question_id": "EVENT01S01Q08",
+            "question_text": "Start Time",
+            "question_type": "time",
+            "required": false
+          },
+          {
+            "question_id": "EVENT01S01Q09",
+            "question_text": "End Time",
+            "question_type": "time",
+            "required": false
+          },
+          {
+            "question_id": "EVENT01S01Q10",
+            "question_text": "Instructor",
+            "question_type": "select",
+            "required": false,
+            "options": ["Edgar Garcia", "Elias Flores", "Erica Parra", "Maricela Gonzalez", "Vere Cazares", "Veronica Garza", "Zulema Medrano","Alma Martinez", "Ana Vasquez", "Becky Villasana", "Brenda Araneda", "Ceci Zamora", "Christine Martinez"]
+          },
+          {
+            "question_id": "EVENT01S01Q11",
+            "question_text": "Attendance",
+            "question_type": "text",
+            "required": false
+          },
+          {
+            "question_id": "EVENT01S01Q12",
+            "question_text": "Managing Location",
+            "question_type": "select",
+            "required": true,
+            "options": ["Brownsville", "Combes", "Harlingen", "Laguna Vista", "Los Fresnos", "Port Isabel", "Rio Hondo", "San Benito", "Los Indios", "School of Public Health"]
+          },
+          {
+            "question_id": "EVENT01S01Q13",
+            "question_text": "Event Location",
+            "question_type": "text",
+            "required": true
+          },
+          {
+            "question_id": "EVENT01S01Q14",
+            "question_text": "",
+            "question_type": "qrcode",
+            "required": false
+          }
+
+        ],
+        "businessRules": []
+      }
+    ]
+  }

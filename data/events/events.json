@@ -1,0 +1,46 @@
+{
+    "events": [
+      {
+        "id": "1",
+        "category": "Workshop",
+        "eventID": "E001",
+        "eventClass": "Health and Wellness",
+        "eventDate": "2024-08-01",
+        "eventTime": "10:00 AM",
+        "managingLocation": "Location A",
+        "eventLocation": "Room 101",
+        "occurrence": "Weekly",
+        "numberOfSessions": "4",
+        "instructors": "John Doe",
+        "program": "Health Program"
+      },
+      {
+        "id": "2",
+        "category": "Seminar",
+        "eventID": "E002",
+        "eventClass": "Fitness",
+        "eventDate": "2024-08-05",
+        "eventTime": "2:00 PM",
+        "managingLocation": "Location B",
+        "eventLocation": "Room 202",
+        "occurrence": "Monthly",
+        "numberOfSessions": "1",
+        "instructors": "Jane Smith",
+        "program": "Fitness Program"
+      },
+      {
+        "id": "3",
+        "category": "Class",
+        "eventID": "E003",
+        "eventClass": "Nutrition",
+        "eventDate": "2024-08-10",
+        "eventTime": "11:00 AM",
+        "managingLocation": "Location C",
+        "eventLocation": "Room 303",
+        "occurrence": "Bi-weekly",
+        "numberOfSessions": "8",
+        "instructors": "Mike Johnson",
+        "program": "Nutrition Program"
+      }
+    ]
+  }

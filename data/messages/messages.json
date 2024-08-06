@@ -1,0 +1,25 @@
+{
+    "messages":[
+    {
+      "id": "1",
+      "from": "Sammi Mentis",
+      "recipient": "DPP, Brownsville",
+      "subject": "DPP-New Event at Health Center",
+      "date": "05/01/2024 5:00 PM"
+    },
+    {
+      "id": "2",
+      "from": "Sammi Mentis",
+      "recipient": "(All Participants)",
+      "subject": "Zumba Classes",
+      "date": "05/02/2024 5:00 PM"
+    },
+    {
+      "id": "3",
+      "from": "Sammi Mentis",
+      "recipient": "Health Fair",
+      "subject": "[Draft] Health Fair at Health Center",
+      "date": "05/01/2024 5:00 PM"
+    }
+  ]
+}
